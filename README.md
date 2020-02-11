@@ -22,10 +22,15 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 | Behavior   |      Input      |  Output |
 |------------|:---------------:|--------:|
-| | | |
-| | | |
-| | | |
-| | | |
+|**When game starts, an animal is born/created**| Push Start | Animal appears with vital signs |
+|**All timers starts immediately when animal is created**| cow is born | sun: 10, sleep: 10, food: 10 |
+|**Every 6 seconds "sun" level drops by 1 level**| sun: 8 and 1 second passes | sun:7 |
+|**Every 12 seconds "sleep" level drops by 1 level**| sleep: 6 and 1 second passes | sleep:5 |
+|**Every 3 seconds "food" level drops by 1 level**| food: 5 and 1 second passes | food:4 |
+|**If sun, sleep or food level drops to 0 then animal dies** | food:0 | animal dies |
+|**If sun, sleep or food button is pressed then the respective health meters increase by 1 level**| sleep:4 and sleep button is clicked | sleep:5
+|**If any health meter falls below 5, program informs user**| sun: 4 | user messsage: "I need sun!"
+|**If 2 minutes pass without an animal dying, a new animal is born**| if cow object = true | instantiate new cow 
 
 ## Known Bugs
 
