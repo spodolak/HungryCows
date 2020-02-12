@@ -1,0 +1,22 @@
+body {
+}
+
+#cow1 {
+    display:none;
+}
+
+img {
+    display: block;
+}
+
+#need-food {
+    display: none;
+}
+
+#need-sleep {
+    display: none;
+}
+
+#need-sun {
+    display: none;
+}

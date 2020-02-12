@@ -1,6 +1,5 @@
 export class Cow {
-	constructor(name) {
-		this.name = name;
+	constructor() {
 		this.foodLevel = 10;
 		this.sleepLevel = 10;
 		this.sunLevel = 10;
@@ -22,7 +21,7 @@ export class Cow {
 	}
 
 	feed() {
-		if (this.foodLevel > 0) {
+		if (this.foodLevel > 0 && this.foodLevel < 10) {
 			this.foodLevel++;
 		} else {
 			return false;
@@ -44,7 +43,7 @@ export class Cow {
 	}
 
 	sleep() {
-		if (this.sleepLevel > 0) {
+		if (this.sleepLevel > 0 && this.sleepLevel < 10) {
 			this.sleepLevel++;
 		} else {
 			return false;
@@ -66,7 +65,7 @@ export class Cow {
 	}
 
 	sun() {
-		if(this.sunLevel > 0) {
+		if(this.sunLevel > 0 && this.sunLevel <10) {
 			this.sunLevel++;
 		} else {
 			return false;

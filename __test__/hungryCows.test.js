@@ -45,7 +45,6 @@ describe("Cow1", () => {
 	});
 
 	test("should have a name and a food level, sleep level and sun level of 10 when it is created", () => {
-		expect(cow1.name).toEqual("Cow1");
 		expect(cow1.foodLevel).toEqual(10);
 		expect(cow1.sleepLevel).toEqual(10);
 		expect(cow1.sunLevel).toEqual(10);

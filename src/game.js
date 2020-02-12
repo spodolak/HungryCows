@@ -9,4 +9,6 @@ export class Game {
 		newCow.id = this.id;
 		this.cows.push(newCow);
 	}
+
+	
 }
