@@ -1,22 +1,18 @@
-# _{Application Name}_
+# _HungryCows_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A game of multiplying cows!, Feb 15th, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Kristina Hengster Tintor and Stephanie Podolak**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_A Web application modeled after the childehood favorite Tamagotchi game. When starting the application, a cow is born, initiating timers that promt the user to feed, sleep or sun the cow. Additionally, if a cow is kept alive for long enough, a new cow is born. Soon the user will have to manage multiple cows. Written in JavaScript._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+1. Clone this repository to your desktop. If using Git Bash you can do this by typing "git clone https://github.com/spodolak/HungryCows.git" into your command line while in desktop directory.
+2. Navigate inside project directory by entering "cd epicodus_HungryCows" in Git Bash.
+3. Open index.html file in your browser of choice by entering "open index.html" in the terminal.
 
 ## Project Specifications
 
@@ -34,18 +30,24 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs at this time_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_For any questions or comments please contact:_ Stephanie Podolak
 
 ## Technologies Used
-
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* JavaScript
+* jQuery-3.4.1
+* Jest
+* Babel 
+* HTML
+* CSS
+* Bootstrap-4.4.1
+* Google Fonts
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Stephanie Podolak_**
